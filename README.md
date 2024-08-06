@@ -1,7 +1,7 @@
 ![](readme/spl.png)
 
 **Solana Raydium Sniper Bot** that listens to new Raydium WSOL pools and buys tokens for a fixed amount in WSOL.
-Depending on the speed of the RPC node, the purchase usually happens before the token is available on Raydium UI for swapping. This program took me two months to complete, and I hope it will be helpful to everyone looking to snipe tokens on Solana.
+Depending on the speed of the RPC node, the purchase usually happens before the token is available on Raydium UI for swapping. This program took me two months to complete, and I hope it will be helpful to everyone looking to snipe tokens on Solana
 
 Note: Even for testing, besides using WSOL as the exchange token, it’s important to keep more SOL for transaction fees. The configuration example is: "1 SOL / 0.1 WSOL / QUOTE_AMOUNT=0.01" You can adjust it according to your own situation.
 
